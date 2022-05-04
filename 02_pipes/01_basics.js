@@ -30,6 +30,9 @@ observable$.pipe(
 console.log("---");
 
 
+
+
+
 observable$.pipe(
     map(x => x * 2),
     tap(x => console.log(x))
@@ -43,6 +46,10 @@ observable$.pipe(
     8
 */
 console.log("---");
+
+
+
+
 
 observable$.pipe(
     map(x => x * 2),
